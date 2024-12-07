@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main-bg: #ffffff; /* White background */
+    --main-text: #000000; /* Black text */
+    --main-section: #003366; /* Dark blue */
+    --complementary-section: #6699cc; /* Light blue */
+    --main-highlight: #336699; /* Medium blue */
+    --complementary-highlight: #99ccff; /* Very light blue */
+    --main-button: #0055cc; /* Bright blue */
+}
+
+body {
+    background-color: var(--main-bg);
+    color: var(--main-text);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 2rem;
+    font-size: 2.5rem;  /* Added this line to make the logo bigger */
+}
+header {
+    background-color: var(--main-section);
+    color: var(--main-bg);
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+nav a {
+    color: var(--main-bg);
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+#news-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+section {
+    flex: 1;
+    min-width: 300px;
+    background-color: var(--complementary-section);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+article {
+    background-color: var(--main-bg);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    background-color: var(--main-section);
+    color: var(--main-bg);
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+.important-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fact-score {
+    height: auto;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: var(--main-highlight);
+    color: var(--main-bg);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+}
+.signup {
+    margin-left: auto;
+    display: block;
+    background:  #6699cc;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 30px;
+    transition: background-color 0.5s, color 0.5s;
+    cursor: pointer;
+    position: relative;
+}
+
+.signup:hover {
+    background: #336699;
+    color: #ffffff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.nav-left {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-right {
+    margin-left: auto;
+}
+.button {
+    margin-left: auto;
+    display: block;
+    background:  #6699cc;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 30px;
+    transition: background-color 0.5s, color 0.5s;
+    position: relative;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #336699;
+    color: #ffffff;
+}

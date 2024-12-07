@@ -2,9 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AIStiri</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/index.css">
+    <script src="/JS/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-
+<header>
+    <nav class="navbar">
+        <h1 class="logo">AIȘtiri</h1>
+        <ul>
+            <div class="nav-left">
+                <li class="button"><a href="factchecker.html">Fact checker</a></li>
+                <li class="button" id='latest-news-link'>Ultimele știri</li>
+            </div>
+            <div class="nav-right">
+                <li class="signup"><a href="login.html">Login / Înregistare</a></li>
+            </div>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div id="news-section">
+        <section id="latest-news" class="hidden">
+            <h2>Ultimele stiri</h2>
+            <article class="article">
+                <div class="important-info">
+                    <h3>Article Title 3</h3>
+                    <div class="fact-score">Fact Score: 85%</div>
+                </div>
+                <p>Summary of the article...</p>
+            </article>
+            <article class="article">
+                <div class="important-info">
+                    <h3>Article Title 3</h3>
+                    <div class="fact-score">Fact Score: 85%</div>
+                </div>
+                <p>Summary of the article...</p>
+            </article>
+        </section>
+        <section id="top-news">
+            <h2>Stiri dupa preferintele tale</h2>
+            <article class="article">
+                <div class="important-info">
+                    <h3>Article Title 3</h3>
+                    <div class="fact-score">Fact Score: 85%</div>
+                </div>
+                <p>Summary of the article...</p>
+            </article>
+            <article class="article">
+                <div class="important-info">
+                    <h3>Article Title 3</h3>
+                    <div class="fact-score">Fact Score: 85%</div>
+                </div>
+                <p>Summary of the article...</p>
+            </article>
+        </section>
+    </div>
+</main>
+<footer>
+    <p>&copy; 2024 AIȘtiri. All rights reserved.</p>
+</footer>
 </body>
 </html>
